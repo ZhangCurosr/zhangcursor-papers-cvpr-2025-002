@@ -4,5 +4,32 @@
  "title": "L-SWAG-Layer-Sample-Wise-Activation-with-Gradients-informati",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-08-13 06:57:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/03cdbbd9-6d9a-4ac7-a106-7df49db905cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/03cdbbd9-6d9a-4ac7-a106-7df49db905cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:22:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Zero-Shot NAS",
+    "Vision Transformer",
+    "Proxy Metric",
+    "Neural Architecture Search",
+    "L-SWAG",
+    "LIBRA-NAS",
+    "Autoformer"
+   ],
+   "field": "神经架构搜索 (NAS)",
+   "innovations": [
+    "提出L-SWAG指标，结合层-样本级梯度统计与表达性度量，首次在ViT搜索空间上系统性地超越参数量基线并提升多基准ranking相关性",
+    "提出LIBRA-NAS集成算法，通过信息增益最小化和偏差匹配策略无训练代价地组合互补代理，显著提升跨基准性能",
+    "构建包含ViT的扩展基准并适配GeLU网络，统一评估了20种ZC代理在新旧空间上的表现"
+   ],
+   "benchmarks": [
+    "NASBench-201",
+    "TransNAS-Bench-101",
+    "Autoformer"
+   ]
+  }
+ }
 }

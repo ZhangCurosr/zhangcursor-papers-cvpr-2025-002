@@ -4,5 +4,35 @@
  "title": "LibraGrad-Balancing-Gradient-Flow-for-Universally-Better-Vis",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 06:58:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7e4ba90c-42e6-466d-868d-1ef0f2cb2937.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7e4ba90c-42e6-466d-868d-1ef0f2cb2937.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:23:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "解释性AI",
+    "Vision Transformer",
+    "梯度归因",
+    "FullGrad",
+    "忠实度评估",
+    "可解释性",
+    "注意力机制"
+   ],
+   "field": "计算机视觉可解释性",
+   "innovations": [
+    "形式化定义FG-Completeness并证明CNN天然满足而Transformer破坏该性质",
+    "提出LibraGrad后验修正框架，通过Constant Operator和SwapBackward算子修复梯度流不平衡",
+    "证明通用FullGrad+在梯度平衡后可全面超越Transformer专用归因方法"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "ImageNet-Hard",
+    "MURA",
+    "Oxford-IIIT Pet",
+    "ImageNet-S",
+    "FunnyBirds"
+   ]
+  }
+ }
 }

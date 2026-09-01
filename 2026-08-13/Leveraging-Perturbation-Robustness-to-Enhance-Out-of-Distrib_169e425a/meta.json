@@ -4,5 +4,34 @@
  "title": "Leveraging-Perturbation-Robustness-to-Enhance-Out-of-Distrib",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 06:59:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6a889ea3-8da6-4148-9d77-41226e718508.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6a889ea3-8da6-4148-9d77-41226e718508.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:23:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "OOD Detection",
+    "Perturbation Robustness",
+    "Adversarial Training",
+    "Softmax-based Scoring",
+    "Post-hoc Method",
+    "Near-OOD Detection",
+    "OpenOOD"
+   ],
+   "field": "分布外检测（Out-of-Distribution Detection）",
+   "innovations": [
+    "提出对抗打分函数 g*，通过在输入邻域极小化原分数增强 IND/OOD 可分性",
+    "证明对抗训练为 IND softmax 分数提供扰动下界，桥接对抗鲁棒性与 OOD 检测",
+    "PRO 作为通用后处理插件，可无损叠加至 MSP/Entropy/GEN 等 softmax 得分之上"
+   ],
+   "benchmarks": [
+    "OpenOOD",
+    "RobustBench",
+    "CIFAR-10",
+    "CIFAR-100",
+    "ImageNet-1K"
+   ]
+  }
+ }
 }

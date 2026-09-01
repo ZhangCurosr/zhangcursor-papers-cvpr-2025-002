@@ -4,5 +4,35 @@
  "title": "LSNet-See-Large-Focus-Small",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:58:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5dac5278-70e4-458b-b2fb-b0d98791686a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5dac5278-70e4-458b-b2fb-b0d98791686a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:23:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "轻量级视觉网络",
+    "大核卷积",
+    "动态卷积",
+    "token mixing",
+    "LSNet",
+    "异构尺度感知"
+   ],
+   "field": "高效计算机视觉",
+   "innovations": [
+    "提出感知-聚合解耦的LS卷积，大核静态感知+小核动态聚合",
+    "基于人类视觉'See Large, Focus Small'机制设计轻量级LSNet模型族",
+    "LS卷积可泛化替换ResNet/DeiT中的标准卷积与自注意力并显著提升精度"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "COCO-2017",
+    "ADE20K",
+    "ImageNet-C",
+    "ImageNet-A",
+    "ImageNet-R",
+    "ImageNet-Sketch"
+   ]
+  }
+ }
 }

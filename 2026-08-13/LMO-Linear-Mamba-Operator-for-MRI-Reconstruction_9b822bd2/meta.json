@@ -4,5 +4,31 @@
  "title": "LMO-Linear-Mamba-Operator-for-MRI-Reconstruction",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 06:58:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/03768bed-a9bf-4cd2-8e08-e3bba5dea5c7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/03768bed-a9bf-4cd2-8e08-e3bba5dea5c7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:23:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MRI Reconstruction",
+    "Neural Operator",
+    "Mamba",
+    "Deep Learning",
+    "Accelerated MRI",
+    "Functional Space Mapping"
+   ],
+   "field": "Medical Image Analysis / Compressed Sensing MRI",
+   "innovations": [
+    "Proposed Linear Mamba Operator (LMO), the first Mamba-based Neural Operator for MRI reconstruction, combining Scanning Integration (SI) and Convolution Integration (CI) to capture global and local features.",
+    "Proved Continuous-Discrete Equivalence (CDE) for SI and CI in bandlimited function spaces, theoretically ensuring the model's generalization ability.",
+    "LMO demonstrated superior generalization across varying acceleration rates (AR), being the only model that achieves retraining performance without retraining when AR changes."
+   ],
+   "benchmarks": [
+    "IXI dataset",
+    "fastMRI dataset (knee)",
+    "Multi-coil brain dataset"
+   ]
+  }
+ }
 }

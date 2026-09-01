@@ -4,5 +4,30 @@
  "title": "Koala-36M-A-Large-scale-Video-Dataset-Improving-Consistency",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 06:58:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/50acb98b-720f-4f37-b18f-9fc61e0b3801.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/50acb98b-720f-4f37-b18f-9fc61e0b3801.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:22:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video dataset",
+    "text-to-video generation",
+    "data curation",
+    "video splitting",
+    "structured captioning",
+    "dataset filtering",
+    "metric conditioning"
+   ],
+   "field": "视频生成数据集与数据工程",
+   "innovations": [
+    "提出 VTSS 单一综合评分替代多阈值视频过滤策略",
+    "设计结构化六维度字幕系统与 CSS+3σ 时序过渡检测",
+    "通过 AdaLN 注入多指标完成细粒度质量条件控制"
+   ],
+   "benchmarks": [
+    "VBench"
+   ]
+  }
+ }
 }
